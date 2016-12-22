@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Webpack training</title>
+    <link href="build/main.css" rel="stylesheet" media="all">
+  </head>
+  <body>
+      <div id="app" class="container text-center">
+        <canvas id="graph" width="800" height="600"></canvas>
+        <div class="btn-group text-center">
+          <button id="play" class="btn btn-default">
+            <span class="glyphicon glyphicon-play"></span>
+          </button>
+          <button id="stop" class="btn btn-default">
+            <span class="glyphicon glyphicon-stop"></span>
+          </button>
+        </div>
+        <div class="text-center">
+          Template for Arduino Sensor project by <a href="http://www.franckysolo-productions.com/">@franckysolo</a>
+        </div>
+        <pre id="display" class="hide"></pre>
+        <time id="chrono"></time>
+      </div>
+      <script type="text/javascript" src="build/bundle.js" charset="utf-8"></script>
+  </body>
+</html>
